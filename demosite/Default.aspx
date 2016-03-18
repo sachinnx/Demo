@@ -6,14 +6,18 @@
 <head runat="server">
     <title> WELCOME To Capgemini</title>
 </head>
-<body>
+<body style="height: 581px">
     <form id="form1" runat="server">
-    <div style="height: 407px">
+    <div style="height: 586px">
     
         <asp:Label ID="Label1" runat="server" Text="HELLO"></asp:Label>
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:ImageButton ID="ImageButton1" runat="server" Height="354px" ImageUrl="~/Images/Desert.jpg" Width="600px" />
+        <br />
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="Welcome"></asp:Label>
+        <br />
     
     </div>
     </form>
